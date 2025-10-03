@@ -1,0 +1,17 @@
+
+package praktikum3;
+import javax.swing.JOptionPane;
+//
+public class coba4 {
+    public static void main(String[] args) {
+        String nama = JOptionPane.showInputDialog("Masukkan nama anda : ").trim(); //trim fungsinya untuk menghapus spasi
+        JOptionPane.showMessageDialog(null, "Halo " + nama + "!");
+        
+        String umur  = JOptionPane.showInputDialog(null, "Berapa umur anda jika ditambah 40 : ").trim();
+        int u = Integer.parseInt(umur);
+        String umur  = JOptionPane.showInputDialog("Berapa umur anda jika ditambah 10 : ").trim();
+        int y = Integer.parseInt(umur);
+        int u = Integer.parseInt(umur);
+    }
+}
+    
