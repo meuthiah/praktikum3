@@ -1,0 +1,30 @@
+package praktikum3;
+import java.util.Scanner;
+public class coba3 {
+    public static void main(String[] args) {
+       
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan nama : ");
+        String nama = input.nextLine(); //nextLong haya mengambil saat bilangan kalau tdk bilangan tdk akan dipilih
+        
+        System.out.print("Masukkan NRP : ");
+        Long NRP = input.nextLong();
+         input.nextLine(); //Ditambah ini supaya tdk mengskip hobi
+        
+         System.out.println("Masukkan jurusan : ");
+        String jurusan = input.nextLine();
+        long x = NRP/1000000; 
+        
+        //Tahun masuk 
+        
+        
+        System.out.println("==DATA MAHASISWA==");
+        System.out.println("Nama : " + nama);
+        System.out.println("NRP : " + NRP);
+        System.out.println("Jurusan : " + jurusan);
+        System.out.println("Kode departemen : " + x);
+        System.out.println("Tahun masuk : ");
+        
+       
+    }
+}
