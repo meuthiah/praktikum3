@@ -1,0 +1,13 @@
+package praktikum3;
+import java.util.Scanner;
+public class Praktikum3 {
+
+   
+    public static void main(String[] args) {
+       Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan nama anda : ");
+        String nama = input.nextLine(); // mengambil imputan daei user
+        System.out.println("Halo, " + nama + "!");
+    }
+    
+}
